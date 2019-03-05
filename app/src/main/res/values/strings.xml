@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">GeoCoding</string>
+    <!-- Strings related to login -->
+    <string name="login_prompt_username">Username</string>
+    <string name="login_prompt_password">Password</string>
+    <string name="login_action_sign_in">Sign in</string>
+    <string name="login_error_invalid_username">This username address is invalid</string>
+    <string name="login_error_invalid_password">This password is too short</string>
+    <string name="login_error_incorrect_password">This password is incorrect</string>
+    <string name="login_error_field_required">This field is required</string>
+
+    <string name="login_greeting">Hello %s !</string>
+
+    <!-- Strings related to adminhub -->
+    <string name="adminhub_title">AdminHubActivity</string>
+    <string name="adminhub_btn_events">Events</string>
+    <string name="adminhub_btn_groups">Groups</string>
+    <string name="adminhub_btn_lists">Lists</string>
+    <string name="adminhub_btn_riddles">Riddles</string>
+    <string name="adminhub_btn_exeevent">Execute Event</string>
+    <string name="adminhub_btn_export">Export</string>
+    <string name="adminhub_btn_import">Import</string>
+
+    <!-- Strings related to drawer -->
+    <string name="button_puzzle_submit">Submit</string>
+    <string name="puzzle_display_top_text">Puzzle</string>
+    <string name="location_check_button_text">Check location</string>
+    <string name="answer_entry_hint">Enter answer here</string>
+
+    <!-- Strings related to logout -->
+    <string name="logout_title">Logging out!</string>
+    <string name="logout_message">Are you sure?</string>
+    <string name="logout_positive">Logout!</string>
+    <string name="logout_cancel">Cancel</string>
+
+
+    <!-- Strings related to editevent -->
+    <string name="editevent_title">Edit Event</string>
+
+    <!-- Strings related to editgroup -->
+    <string name="editgroup_title">Edit Group</string>
+    <string name="editgroup_applybutton">Apply</string>
+    <string name="editgroup_deletebutton">Delete</string>
+    <string name="editgroup_hintpw">enter password</string>
+    <string name="editgroup_hintgroup">enter name</string>
+    <string name="editgroup_titlegroup">group name:</string>
+    <string name="editgroup_titlepw">password:</string>
+
+    <!-- Strings related to eventaddgroup -->
+    <string name="eventaddgroup_title">new participant</string>
+    <string name="eventaddgroup_selectgroup">select group</string>
+    <string name="eventaddgroup_selectlist">select list</string>
+    <string name="eventaddgroup_cancel">cancel</string>
+    <string name="eventaddgroup_add">add</string>
+    <string name="eventaddgroup_nogroup">no group selected</string>
+    <string name="eventaddgroup_nolist">no list selected</string>
+
+    <!-- Strings related to export -->
+    <string name="export_maintitle">Export Event</string>
+    <string name="export_describtion">Please choose an event to be exported: </string>
+    <string name="export_notice">Please note that exporting an event will export all the users, riddles, lists and progress which are part of the chosen event</string>
+    <string name="export_noeventerr">There are no available Events ! </string>
+    <string name="export_exportbutton">Export Event</string>
+
+    <!-- Strings related to import -->
+    <string name="import_maintitle">Import Event</string>
+    <string name="import_desc">Please choose a package file to be imported :</string>
+    <string name="import_importbutton">import file</string>
+    <string name="import_success">event imported successfully!</string>
+
+    <!-- Strings related to puzzleanswer -->
+    <string name="puzzleanswer_title">Add Answer</string>
+    <string name="puzzleanswer_savebutton">Save</string>
+    <string name="puzzleanswer_addlocbtn">Location</string>
+    <string name="puzzleanswer_addqrbtn">QR</string>
+    <string name="puzzleanswer_addtextbtn">Text</string>
+
+    <!-- Strings related to addriddles -->
+    <string name="addriddles_title">Add Riddles</string>
+    <string name="there_is_no_riddles_that_you_can_add_to_this_list">There is no riddles that you can add to this list</string>
+    <string name="save">save</string>
+
+    <!-- Strings related to add answers -->
+    <string name="addanswer_text_title">Add Text</string>
+    <string name="addanswer_text_hint">Enter Text</string>
+    <string name="addpuzzle_text_title">Add Text</string>
+    <string name="addpuzzle_text_hint">Enter Text</string>
+
+    <!-- Strings related to event control -->
+    <string name="eventcontrol_title">Event Execution</string>
+    <string name="eventcontrol_status">status : </string>
+
+    <string name="eventcontrol_startbtn">Start Event</string>
+    <string name="eventcontrol_resumebtn">Resume Event</string>
+    <string name="eventcontrol_restartbtn">Delete Progress</string>
+    <string name="eventcontrol_pausebtn">Pause Event</string>
+    <string name="eventcontrol_stopbtn">Stop Event</string>
+
+    <string name="eventcontrol_state_started">running</string>
+    <string name="eventcontrol_state_paused">paused</string>
+    <string name="eventcontrol_state_stopped">stopped</string>
+    <string name="eventcontrol_state_warmup">warm-up</string>
+
+    <string name="eventcontrol_selection">Select Event:</string>
+
+    <!-- Strings related to player select event -->
+    <string name="eventselect_title">Select Event:</string>
+
+    <!-- Strings related to player waiting room -->
+    <string name="playerwait_message_not_started">Selected event is currently locked!</string>
+    <string name="playerwait_message_started">Event has started!</string>
+
+    <!-- Strings related to player finished -->
+    <string name="playerfinish_cheer">congratulations!</string>
+    <string name="playerfinish_message">you have completed this event!</string>
+
+    <!-- Strings related to code format -->
+    <string name="editcode_error">could not format into java code!</string>
+    <string name="editcode_button">format</string>
+
+    <!-- Strings related to player answer activity -->
+    <string name="noprovider">provider is inaccessible</string>
+    <string name="noprovidertext">provider is inaccessible</string>
+    <string name="noproviderpos">ok</string>
+    <string name="gpsinfo">Longitude: %f , Latitude: %f</string>
+    <string name="gpswait">Longitude: %f , Latitude: %f</string>
+    <string name="skip">skip</string>
+
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="answer">Answer</string>
+    <string name="add_text">add text</string>
+    <string name="add_image">add image</string>
+    <string name="add_code">add code</string>
+    <string name="add_new_riddle">New riddle</string>
+    <string name="edit_riddle">Edit Riddle</string>
+    <string name="riddles">Riddles</string>
+    <string name="groups">Groups</string>
+    <string name="events">Events</string>
+    <string name="riddlelist">Riddle Lists</string>
+    <string name="begin_event">Begin Event</string>
+    <string name="no_back_msg">Please use the save or dismiss button at the top of the screen</string>
+    <string name="add_code_segment">Add Code Segment</string>
+    <string name="enter_code">Enter Code</string>
+    <string name="qr_prompt">please scan the QR</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="add_location">Add Location</string>
+    <string name="latitude">Enter Latitude</string>
+    <string name="longitude">Enter Longitude</string>
+    <string name="add_answer">Add Answer</string>
+    <string name="update_answer">Update Answer</string>
+    <string name="saved">Saved</string>
+    <string name="save_answer_error">Answer could not be saved</string>
+    <string name="puzzle_save_no_answer">Please Add an answer before saving the riddle</string>
+    <string name="puzzle_on_back_press_no_answer">the riddle will be discarded</string>
+    <string name="empty_puzzle_erro">you can not save an empty riddle</string>
+    <string name="no_name_puzzle_erro">please add a name</string>
+    <string name="add_new_riddlelist">Add new Riddlelist</string>
+    <string name="list_name">List Name</string>
+    <string name="update_riddle_list">Update Riddle List</string>
+
+    <string name="answer_location_error">Please check that you have entered both latitude and longitude</string>
+
+    <string name="solve_button_text">Submit solution</string>
+
+    <string name="select_solution_type_text">Select solution type</string>
+
+
+</resources>

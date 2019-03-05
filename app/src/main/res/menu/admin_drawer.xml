@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Management">
+        <menu>
+            <item
+                android:id="@+id/nav_events"
+                android:title="Events" />
+            <item
+                android:id="@+id/nav_groups"
+                android:title="Groups" />
+            <item
+                android:id="@+id/nav_lists"
+                android:title="Lists" />
+            <item
+                android:id="@+id/nav_rid"
+                android:title="Riddle" />
+        </menu>
+    </item>
+
+    <item android:title="Transfer">
+        <menu>
+            <item
+                android:id="@+id/nav_import"
+                android:title="Import" />
+            <item
+                android:id="@+id/nav_export"
+                android:title="Export" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout" />
+
+    </group>
+
+</menu>
